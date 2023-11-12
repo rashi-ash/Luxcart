@@ -2,6 +2,7 @@
 
 {%extends 'index.html'%}
 {% block content %}
+{% load static %}
 <section class="vh-100">
 <div class="container  mt-10">
         
@@ -87,8 +88,8 @@
               
             </div>
             <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
-            aria-describedby="registerCheckHelpText" />
-          <label class="form-check-label" for="registerCheck">
+            aria-describedby="registerCheckHelpText" / style="background-color:  #832c87; border-color: #832c87;">
+          <label class="form-check-label" for="registerCheck" >
             I have read and agree to the terms
           </label>
             <!-- Checkbox -->
@@ -97,7 +98,7 @@
             </div>
       
             <!-- Submit button -->
-            <button type="submit" name="signup" class="btn btn-primary btn-block mb-3">Sign in</button>
+            <button type="submit" name="signup" class="btn btn-primary btn-block mb-3" style="background-color:  #832c87; ">Sign in</button>
           </form>
         </div>
       </div>
